@@ -18,7 +18,7 @@ public class Day44 {
         System.out.println();
         System.out.print("Angka genap dari " + n + " ke bawah: ");
         for (int i = n; i >= 0; i--) {
-             if (i % 2 == 0 && i > 0) { // i > 0 opsional jika ingin mengecualikan angka 0
+             if (i % 2 == 0 && i > 0) { 
                 System.out.print(i + " ");
             }
         }
