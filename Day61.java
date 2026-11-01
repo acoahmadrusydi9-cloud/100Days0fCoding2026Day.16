@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Day61 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan nilai N: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         if (n < 1) {
             System.out.println("Nilai N harus lebih besar atau sama dengan 1.");
@@ -17,6 +17,6 @@ public class Day61 {
 
             System.out.println("Hasil perkalian angka dari 1 sampai " + n + " adalah: " + hasilKali);
         }
-        scanner.close();
+        sc.close();
     }
 }
