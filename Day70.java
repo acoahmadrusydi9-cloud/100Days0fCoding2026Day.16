@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Day70{
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        System.out.print("Masukkan jumlah kolom: ");
+        System.out.print("Masukkan angka : ");
         int a = sc.nextInt();
         
         for( int baris = 1; baris<= a ; baris++){
